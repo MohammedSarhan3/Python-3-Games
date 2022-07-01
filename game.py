@@ -27,3 +27,17 @@ mul_table(2,6,2,20)
 # sentence : count words
 sentence= input('Enter Sentence: ')
 print(len(sentence.split()))
+
+
+#improve Game:  count words as a function
+
+# sentence : count words
+def count_words(sentence):
+    word_count=len(sentence.split())
+    return word_count
+
+sentence = "my name is mohammad"
+
+print(count_words(sentence))
+'''
+
