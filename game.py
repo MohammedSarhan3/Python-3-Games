@@ -21,3 +21,9 @@ def mul_table(start,end,mstart=1,mstop=10):
 
         
 mul_table(2,6,2,20)
+
+
+#Game:  count words
+# sentence : count words
+sentence= input('Enter Sentence: ')
+print(len(sentence.split()))
